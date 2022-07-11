@@ -18,16 +18,16 @@
   padding-left: 10px;
   border-radius: 5px;
   background: transparent;
-  border: 2px solid #eeeeeec5;
+  border: 2px solid #919191c5;
   outline: none;
   font-size: 20px;
   font-weight: 500;
-  color: white;
+  caret-color: #0059ff;
 }
 
 #input::placeholder {
-  color: white;
-  opacity: .7;
+  color: #000000;
+  opacity: 1;
 }
 
 #submit {
@@ -50,8 +50,8 @@
 
 ul {
   list-style-type: none;
-  width: 550px;
-  height: 700px;
+  width: 750px;
+  height: 70vh;
   text-align: left;
   padding: 15px;
   overflow-y: auto;
@@ -70,9 +70,10 @@ ul::-webkit-scrollbar-thumb {
 
 ul li {
   font-size: 30px;
-  margin: 10px 0px;
+  margin: 15px 0px;
   font-weight: 700;
   background: #ffffff;
   border-radius: 8px;
   padding: 5px;
+  box-shadow: 0 0 3px #2e2e2ec7;
 }
